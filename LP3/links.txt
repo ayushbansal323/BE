@@ -1,0 +1,3 @@
+http://homepage.smc.edu/morgan_david/vpn/assignments/assgt-sdes-encrypt-sample.htm
+
+http://doc.sagemath.org/html/en/reference/cryptography/sage/crypto/block_cipher/sdes.html

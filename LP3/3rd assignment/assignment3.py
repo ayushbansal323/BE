@@ -1,8 +1,8 @@
 from sklearn.neighbors import KNeighborsClassifier
 import matplotlib.pyplot as plt
 
-x = [[2,4], [4,2], [4,6], [6,4], [4,4], [6,2]]
-y = [0, 0, 0, 0, 1, 1]
+x = [[2,4], [4,2], [4,4], [4,6], [6,2], [6,4]]
+y = [0, 0, 1, 0, 1, 0]
 xgraph=[i[0] for i in x]
 ygraph=[i[1] for i in x]
 
