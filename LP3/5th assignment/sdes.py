@@ -108,7 +108,14 @@ def decryption(bits, key):
 
 if __name__ == '__main__':
     key = "1010000010"
+    plaintext = "10101110"
+    print("Enter 10 bit Key: ")
+    key = input()
+    print("Enter 8 bit PlainText: ")
+    plaintext = input()
     #print(int("100", base=2))
-    ciper = encryption("10101110", key)
-    print(ciper)
-    print(decryption(ciper,key))
+    ciper = encryption(plaintext, key)
+    print("ciper text afer sdes: "+ciper)
+    print("After decrypting ciper text: "+decryption(ciper,key))
+    
+    
